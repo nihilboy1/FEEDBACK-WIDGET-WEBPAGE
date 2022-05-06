@@ -1,9 +1,5 @@
 node_modules
 # Keep environment variables out of version control
 .env
-<<<<<<< HEAD
 dist
 
-coverage
-=======
->>>>>>> parent of c1cdcf5 (Ajuste do backend para deploy)
