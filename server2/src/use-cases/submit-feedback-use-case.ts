@@ -36,7 +36,7 @@ export class SubmitFeedbackUseCase {
         `<div style="font-family: sans-serif; color: #111 ">`,
         `<p>Tipo do Feedback: ${type} </p>`,
         `<p>Comentário: ${comment} </p>`,
-        screenshot && `<img src="${screenshot}" />`,
+        screenshot ? `<img src="${screenshot}" />` : 'Nenhuma Screenshot foi enviada',
         `</div>`
       ].join('\n')
     })
