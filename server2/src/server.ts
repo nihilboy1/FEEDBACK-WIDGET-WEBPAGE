@@ -12,5 +12,5 @@ app.use(routes)
 
 
 app.listen(process.env.PORT || 3333, () => {
-  console.log('Server Runniang!')
+  console.log('Server Runnning!')
 })
