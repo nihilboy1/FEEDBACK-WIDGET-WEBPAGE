@@ -1,4 +1,4 @@
-import { FeedbackType, feedbackTypes } from '../Index'
+import { FeedbackType, feedbackTypes } from '../index'
 import { CloseButton } from '../../CloseButton'
 
 
